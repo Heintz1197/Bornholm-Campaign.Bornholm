@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=719;
+		nextID=734;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={3719.9714,269.3989,4620.3965};
-		dir[]={0.80829704,-0.58240789,-0.087785237};
-		up[]={0.57906437,0.8128463,-0.062891752};
-		aside[]={-0.10798611,9.748619e-007,-0.9942736};
+		pos[]={20244.611,70.744987,1155.2717};
+		dir[]={0.59026009,-0.50260139,-0.63185281};
+		up[]={0.34315878,0.86446428,-0.36734238};
+		aside[]={-0.73084438,1.6655977e-006,-0.68272936};
 	};
 };
 binarizationWanted=0;
@@ -518,7 +518,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=254;
+		items=248;
 		class Item0
 		{
 			dataType="Object";
@@ -1746,16 +1746,16 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={20311.373,27.228552,1093.3425};
+				position[]={20310.9,27.228962,1095.4374};
 				angles[]={0,1.5746562,0};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 			};
 			id=42;
 			type="B_Plane_Fighter_01_F";
-			atlOffset=62.636074;
 		};
 		class Item20
 		{
@@ -7335,14 +7335,14 @@ class Mission
 			side="West";
 			class Entities
 			{
-				items=9;
+				items=19;
 				class Item0
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={20307.572,24.735235,1137.1747};
-						angles[]={0,0.018578159,0};
+						position[]={20307.572,24.735565,1137.175};
+						angles[]={0,0.018570304,0};
 					};
 					side="West";
 					flags=7;
@@ -7350,11 +7350,12 @@ class Mission
 					{
 						skill=1;
 						rank="CAPTAIN";
-						description="SF Placeholders";
+						description="Capt. R. Bruce";
 						isPlayable=1;
 					};
 					id=212;
 					type="Operator_Mcam";
+					atlOffset=0.00032997131;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -7517,20 +7518,21 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={20308.578,24.735237,1137.2986};
+						position[]={20308.578,24.734936,1137.2991};
 						angles[]={0,0.0075049158,0};
 					};
 					side="West";
-					flags=5;
+					flags=1;
 					class Attributes
 					{
 						skill=1;
 						rank="LIEUTENANT";
+						description="2LT M. Jones";
 						isPlayable=1;
 					};
 					id=213;
 					type="Operator_Mcam";
-					atlOffset=1.9073486e-006;
+					atlOffset=62.380997;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -7674,7 +7676,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={20306.109,24.735235,1137.0032};
+						position[]={20306.109,24.735447,1137.0031};
 						angles[]={0,0.0075049158,0};
 					};
 					side="West";
@@ -7683,10 +7685,12 @@ class Mission
 					{
 						skill=1;
 						rank="LIEUTENANT";
+						description="1LT  M. Coxit";
 						isPlayable=1;
 					};
 					id=214;
 					type="Operator_Mcam";
+					atlOffset=0.0002117157;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -7830,7 +7834,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={20305.389,24.735237,1135.1281};
+						position[]={20305.389,24.735661,1135.1281};
 						angles[]={0,0.0075049158,0};
 					};
 					side="West";
@@ -7839,13 +7843,12 @@ class Mission
 					{
 						skill=1;
 						rank="SERGEANT";
-						name="PJ";
 						description="PJ";
 						isPlayable=1;
 					};
 					id=216;
 					type="Operator_Mcam";
-					atlOffset=1.9073486e-006;
+					atlOffset=0.00042533875;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -7939,7 +7942,7 @@ class Mission
 											"SCALAR"
 										};
 									};
-									value=1.005083;
+									value=1.01;
 								};
 							};
 						};
@@ -7970,7 +7973,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={20309.088,24.735235,1133.8116};
+						position[]={20309.088,24.735519,1133.812};
 						angles[]={0,0.0075049158,0};
 					};
 					side="West";
@@ -7979,11 +7982,13 @@ class Mission
 					{
 						skill=1;
 						rank="CORPORAL";
+						description="JTAC";
 						isPlayable=1;
 						aiRadarUsage=-1;
 					};
 					id=220;
 					type="Operator_Mcam";
+					atlOffset=0.00028419495;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -8108,20 +8113,20 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={20307.844,24.735235,1135.4585};
+						position[]={20307.844,24.734871,1135.458};
 						angles[]={0,0.0075049158,0};
 					};
 					side="West";
-					flags=5;
+					flags=1;
 					class Attributes
 					{
 						rank="SERGEANT";
-						name="PJ_1";
 						description="PJ";
 						isPlayable=1;
 					};
 					id=559;
 					type="Operator_Mcam";
+					atlOffset=62.368;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -8227,20 +8232,20 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={20306.666,24.735235,1135.2567};
-						angles[]={0,0.0075132558,0};
+						position[]={20306.666,24.735527,1135.2571};
+						angles[]={0,0.0075049158,0};
 					};
 					side="West";
 					flags=5;
 					class Attributes
 					{
 						rank="SERGEANT";
-						name="PJ_2";
 						description="PJ";
 						isPlayable=1;
 					};
 					id=561;
 					type="Operator_Mcam";
+					atlOffset=0.00029182434;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -8346,20 +8351,20 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={20309.164,24.735235,1135.457};
-						angles[]={0,0.0075132558,0};
+						position[]={20309.164,24.735397,1135.457};
+						angles[]={0,0.0075049158,0};
 					};
 					side="West";
 					flags=5;
 					class Attributes
 					{
 						rank="SERGEANT";
-						name="PJ_3";
 						description="PJ";
 						isPlayable=1;
 					};
 					id=563;
 					type="Operator_Mcam";
+					atlOffset=0.00016212463;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -8465,7 +8470,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={20307.789,24.735235,1133.8873};
+						position[]={20307.789,24.73563,1133.8871};
 						angles[]={0,0.0075049158,0};
 					};
 					side="West";
@@ -8474,11 +8479,12 @@ class Mission
 					{
 						rank="SERGEANT";
 						name="PJ_4";
-						description="PJ";
+						description="JTAC";
 						isPlayable=1;
 					};
 					id=565;
 					type="Operator_Mcam";
+					atlOffset=0.00039482117;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -8598,11 +8604,1408 @@ class Mission
 						nAttributes=6;
 					};
 				};
+				class Item9
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={20306.6,24.735218,1133.8201};
+						angles[]={0,0.0075049158,0};
+					};
+					side="West";
+					flags=1;
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						description="Special Skills Operator";
+						isPlayable=1;
+						aiRadarUsage=-1;
+					};
+					id=567;
+					type="Operator_Mcam";
+					atlOffset=62.345001;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="acex_headless_blacklist";
+							expression="_this setVariable [""acex_headless_blacklist"",_value,true]";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ace_isMedic";
+							expression="if (_value > -1) then {_this setVariable [""ace_medical_medicClass"",_value,true];};";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1;
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="ace_isEngineer";
+							expression="if (_value != -1) then {_this setVariable ['ace_isEngineer',_value, true];}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=2;
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male08ENG";
+								};
+							};
+						};
+						class Attribute4
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						class Attribute5
+						{
+							property="ace_advanced_fatigue_performanceFactor";
+							expression="_this setVariable [""ace_advanced_fatigue_performanceFactor"",_value,true]";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=2;
+								};
+							};
+						};
+						nAttributes=6;
+					};
+				};
+				class Item10
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={20308.908,24.734852,1131.938};
+						angles[]={0,0.0075049158,0};
+					};
+					side="West";
+					flags=1;
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						description="Special Skills Operator";
+						isPlayable=1;
+						aiRadarUsage=-1;
+					};
+					id=569;
+					type="Operator_Mcam";
+					atlOffset=62.381004;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="acex_headless_blacklist";
+							expression="_this setVariable [""acex_headless_blacklist"",_value,true]";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ace_isMedic";
+							expression="if (_value > -1) then {_this setVariable [""ace_medical_medicClass"",_value,true];};";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1;
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="ace_isEngineer";
+							expression="if (_value != -1) then {_this setVariable ['ace_isEngineer',_value, true];}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=2;
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male08ENG";
+								};
+							};
+						};
+						class Attribute4
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						class Attribute5
+						{
+							property="ace_advanced_fatigue_performanceFactor";
+							expression="_this setVariable [""ace_advanced_fatigue_performanceFactor"",_value,true]";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=2;
+								};
+							};
+						};
+						nAttributes=6;
+					};
+				};
+				class Item11
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={20307.68,24.734955,1131.9911};
+						angles[]={0,0.0075049158,0};
+					};
+					side="West";
+					flags=1;
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						description="Special Skills Operator";
+						isPlayable=1;
+						aiRadarUsage=-1;
+					};
+					id=571;
+					type="Operator_Mcam";
+					atlOffset=62.361004;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="acex_headless_blacklist";
+							expression="_this setVariable [""acex_headless_blacklist"",_value,true]";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ace_isMedic";
+							expression="if (_value > -1) then {_this setVariable [""ace_medical_medicClass"",_value,true];};";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1;
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="ace_isEngineer";
+							expression="if (_value != -1) then {_this setVariable ['ace_isEngineer',_value, true];}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=2;
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male08ENG";
+								};
+							};
+						};
+						class Attribute4
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						class Attribute5
+						{
+							property="ace_advanced_fatigue_performanceFactor";
+							expression="_this setVariable [""ace_advanced_fatigue_performanceFactor"",_value,true]";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=2;
+								};
+							};
+						};
+						nAttributes=6;
+					};
+				};
+				class Item12
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={20305.463,24.735046,1133.703};
+						angles[]={0,0.0075049158,0};
+					};
+					side="West";
+					flags=1;
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						description="Special Skills Operator";
+						isPlayable=1;
+						aiRadarUsage=-1;
+					};
+					id=573;
+					type="Operator_Mcam";
+					atlOffset=62.326004;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="acex_headless_blacklist";
+							expression="_this setVariable [""acex_headless_blacklist"",_value,true]";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ace_isMedic";
+							expression="if (_value > -1) then {_this setVariable [""ace_medical_medicClass"",_value,true];};";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1;
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="ace_isEngineer";
+							expression="if (_value != -1) then {_this setVariable ['ace_isEngineer',_value, true];}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=2;
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male08ENG";
+								};
+							};
+						};
+						class Attribute4
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						class Attribute5
+						{
+							property="ace_advanced_fatigue_performanceFactor";
+							expression="_this setVariable [""ace_advanced_fatigue_performanceFactor"",_value,true]";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=2;
+								};
+							};
+						};
+						nAttributes=6;
+					};
+				};
+				class Item13
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={20306.379,24.735222,1132.0061};
+						angles[]={0,0.0075049158,0};
+					};
+					side="West";
+					flags=1;
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						description="Special Skills Operator";
+						isPlayable=1;
+						aiRadarUsage=-1;
+					};
+					id=575;
+					type="Operator_Mcam";
+					atlOffset=62.34;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="acex_headless_blacklist";
+							expression="_this setVariable [""acex_headless_blacklist"",_value,true]";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ace_isMedic";
+							expression="if (_value > -1) then {_this setVariable [""ace_medical_medicClass"",_value,true];};";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1;
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="ace_isEngineer";
+							expression="if (_value != -1) then {_this setVariable ['ace_isEngineer',_value, true];}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=2;
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male08ENG";
+								};
+							};
+						};
+						class Attribute4
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						class Attribute5
+						{
+							property="ace_advanced_fatigue_performanceFactor";
+							expression="_this setVariable [""ace_advanced_fatigue_performanceFactor"",_value,true]";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=2;
+								};
+							};
+						};
+						nAttributes=6;
+					};
+				};
+				class Item14
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={20305.43,24.735725,1132.041};
+						angles[]={0,0.0075049158,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						description="Special Skills Operator";
+						isPlayable=1;
+						aiRadarUsage=-1;
+					};
+					id=577;
+					type="Operator_Mcam";
+					atlOffset=0.0004901886;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="acex_headless_blacklist";
+							expression="_this setVariable [""acex_headless_blacklist"",_value,true]";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ace_isMedic";
+							expression="if (_value > -1) then {_this setVariable [""ace_medical_medicClass"",_value,true];};";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1;
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="ace_isEngineer";
+							expression="if (_value != -1) then {_this setVariable ['ace_isEngineer',_value, true];}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=2;
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male08ENG";
+								};
+							};
+						};
+						class Attribute4
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						class Attribute5
+						{
+							property="ace_advanced_fatigue_performanceFactor";
+							expression="_this setVariable [""ace_advanced_fatigue_performanceFactor"",_value,true]";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=2;
+								};
+							};
+						};
+						nAttributes=6;
+					};
+				};
+				class Item15
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={20304.99,24.735235,1130.5972};
+						angles[]={0,0.0075049158,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						description="Special Skills Operator";
+						isPlayable=1;
+						aiRadarUsage=-1;
+					};
+					id=725;
+					type="Operator_Mcam";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="acex_headless_blacklist";
+							expression="_this setVariable [""acex_headless_blacklist"",_value,true]";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ace_isMedic";
+							expression="if (_value > -1) then {_this setVariable [""ace_medical_medicClass"",_value,true];};";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1;
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="ace_isEngineer";
+							expression="if (_value != -1) then {_this setVariable ['ace_isEngineer',_value, true];}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=2;
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male08ENG";
+								};
+							};
+						};
+						class Attribute4
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						class Attribute5
+						{
+							property="ace_advanced_fatigue_performanceFactor";
+							expression="_this setVariable [""ace_advanced_fatigue_performanceFactor"",_value,true]";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=2;
+								};
+							};
+						};
+						nAttributes=6;
+					};
+				};
+				class Item16
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={20306.367,24.735235,1130.5757};
+						angles[]={0,0.0075049158,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						description="Special Skills Operator";
+						isPlayable=1;
+						aiRadarUsage=-1;
+					};
+					id=727;
+					type="Operator_Mcam";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="acex_headless_blacklist";
+							expression="_this setVariable [""acex_headless_blacklist"",_value,true]";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ace_isMedic";
+							expression="if (_value > -1) then {_this setVariable [""ace_medical_medicClass"",_value,true];};";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1;
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="ace_isEngineer";
+							expression="if (_value != -1) then {_this setVariable ['ace_isEngineer',_value, true];}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=2;
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male08ENG";
+								};
+							};
+						};
+						class Attribute4
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						class Attribute5
+						{
+							property="ace_advanced_fatigue_performanceFactor";
+							expression="_this setVariable [""ace_advanced_fatigue_performanceFactor"",_value,true]";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=2;
+								};
+							};
+						};
+						nAttributes=6;
+					};
+				};
+				class Item17
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={20309.266,24.735235,1130.5203};
+						angles[]={0,0.0075049158,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						description="Special Skills Operator";
+						isPlayable=1;
+						aiRadarUsage=-1;
+					};
+					id=731;
+					type="Operator_Mcam";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="acex_headless_blacklist";
+							expression="_this setVariable [""acex_headless_blacklist"",_value,true]";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ace_isMedic";
+							expression="if (_value > -1) then {_this setVariable [""ace_medical_medicClass"",_value,true];};";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1;
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="ace_isEngineer";
+							expression="if (_value != -1) then {_this setVariable ['ace_isEngineer',_value, true];}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=2;
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male08ENG";
+								};
+							};
+						};
+						class Attribute4
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						class Attribute5
+						{
+							property="ace_advanced_fatigue_performanceFactor";
+							expression="_this setVariable [""ace_advanced_fatigue_performanceFactor"",_value,true]";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=2;
+								};
+							};
+						};
+						nAttributes=6;
+					};
+				};
+				class Item18
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={20307.729,24.735235,1130.546};
+						angles[]={0,0.0075049158,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						skill=1;
+						rank="CORPORAL";
+						description="Special Skills Operator";
+						isPlayable=1;
+						aiRadarUsage=-1;
+					};
+					id=733;
+					type="Operator_Mcam";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="acex_headless_blacklist";
+							expression="_this setVariable [""acex_headless_blacklist"",_value,true]";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ace_isMedic";
+							expression="if (_value > -1) then {_this setVariable [""ace_medical_medicClass"",_value,true];};";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1;
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="ace_isEngineer";
+							expression="if (_value != -1) then {_this setVariable ['ace_isEngineer',_value, true];}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=2;
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male08ENG";
+								};
+							};
+						};
+						class Attribute4
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						class Attribute5
+						{
+							property="ace_advanced_fatigue_performanceFactor";
+							expression="_this setVariable [""ace_advanced_fatigue_performanceFactor"",_value,true]";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=2;
+								};
+							};
+						};
+						nAttributes=6;
+					};
+				};
 			};
 			class Attributes
 			{
 			};
 			id=211;
+			atlOffset=0.00032997131;
 		};
 		class Item70
 		{
@@ -9075,6 +10478,7 @@ class Mission
 				};
 			};
 			id=245;
+			atlOffset=-0.00054645538;
 		};
 		class Item87
 		{
@@ -9094,6 +10498,7 @@ class Mission
 			};
 			id=246;
 			type="LOP_ChDKZ_ZSU234";
+			atlOffset=-0.00054645538;
 		};
 		class Item88
 		{
@@ -9112,6 +10517,7 @@ class Mission
 			};
 			id=250;
 			type="LOP_ChDKZ_ZSU234";
+			atlOffset=-0.0019741058;
 		};
 		class Item89
 		{
@@ -9130,6 +10536,7 @@ class Mission
 			};
 			id=254;
 			type="LOP_ChDKZ_ZSU234";
+			atlOffset=-0.00077056885;
 		};
 		class Item90
 		{
@@ -9274,6 +10681,7 @@ class Mission
 			};
 			id=265;
 			type="LOP_ChDKZ_ZSU234";
+			atlOffset=-0.0072917938;
 		};
 		class Item93
 		{
@@ -9292,6 +10700,7 @@ class Mission
 			};
 			id=269;
 			type="LOP_ChDKZ_ZSU234";
+			atlOffset=-0.0039052963;
 		};
 		class Item94
 		{
@@ -9316,6 +10725,7 @@ class Mission
 					};
 					id=272;
 					type="LOP_ChDKZ_Infantry_Crewman";
+					atlOffset=-9.5367432e-007;
 				};
 			};
 			class Attributes
@@ -9344,6 +10754,7 @@ class Mission
 				};
 			};
 			id=273;
+			atlOffset=-0.0039052963;
 		};
 		class Item95
 		{
@@ -9863,6 +11274,7 @@ class Mission
 			};
 			id=292;
 			type="LOP_ChDKZ_BTR70";
+			atlOffset=-1.2397766e-005;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -10113,6 +11525,7 @@ class Mission
 			};
 			id=296;
 			type="LOP_ChDKZ_BTR70";
+			atlOffset=-1.1444092e-005;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -17208,912 +18621,6 @@ class Mission
 		};
 		class Item196
 		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={20306.6,24.735235,1133.8202};
-						angles[]={0,0.0075049158,0};
-					};
-					side="West";
-					flags=7;
-					class Attributes
-					{
-						skill=1;
-						rank="CORPORAL";
-						isPlayable=1;
-						aiRadarUsage=-1;
-					};
-					id=567;
-					type="Operator_Mcam";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="acex_headless_blacklist";
-							expression="_this setVariable [""acex_headless_blacklist"",_value,true]";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"BOOL"
-										};
-									};
-									value=0;
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="ace_isMedic";
-							expression="if (_value > -1) then {_this setVariable [""ace_medical_medicClass"",_value,true];};";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=1;
-								};
-							};
-						};
-						class Attribute2
-						{
-							property="ace_isEngineer";
-							expression="if (_value != -1) then {_this setVariable ['ace_isEngineer',_value, true];}";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=2;
-								};
-							};
-						};
-						class Attribute3
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="Male08ENG";
-								};
-							};
-						};
-						class Attribute4
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=1.01;
-								};
-							};
-						};
-						class Attribute5
-						{
-							property="ace_advanced_fatigue_performanceFactor";
-							expression="_this setVariable [""ace_advanced_fatigue_performanceFactor"",_value,true]";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=2;
-								};
-							};
-						};
-						nAttributes=6;
-					};
-				};
-			};
-			class Attributes
-			{
-			};
-			id=566;
-		};
-		class Item197
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={20308.908,24.735235,1131.938};
-						angles[]={0,0.0075049158,0};
-					};
-					side="West";
-					flags=7;
-					class Attributes
-					{
-						skill=1;
-						rank="CORPORAL";
-						isPlayable=1;
-						aiRadarUsage=-1;
-					};
-					id=569;
-					type="Operator_Mcam";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="acex_headless_blacklist";
-							expression="_this setVariable [""acex_headless_blacklist"",_value,true]";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"BOOL"
-										};
-									};
-									value=0;
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="ace_isMedic";
-							expression="if (_value > -1) then {_this setVariable [""ace_medical_medicClass"",_value,true];};";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=1;
-								};
-							};
-						};
-						class Attribute2
-						{
-							property="ace_isEngineer";
-							expression="if (_value != -1) then {_this setVariable ['ace_isEngineer',_value, true];}";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=2;
-								};
-							};
-						};
-						class Attribute3
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="Male08ENG";
-								};
-							};
-						};
-						class Attribute4
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=1.01;
-								};
-							};
-						};
-						class Attribute5
-						{
-							property="ace_advanced_fatigue_performanceFactor";
-							expression="_this setVariable [""ace_advanced_fatigue_performanceFactor"",_value,true]";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=2;
-								};
-							};
-						};
-						nAttributes=6;
-					};
-				};
-			};
-			class Attributes
-			{
-			};
-			id=568;
-		};
-		class Item198
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={20307.68,24.735235,1131.9907};
-						angles[]={0,0.0075049158,0};
-					};
-					side="West";
-					flags=7;
-					class Attributes
-					{
-						skill=1;
-						rank="CORPORAL";
-						isPlayable=1;
-						aiRadarUsage=-1;
-					};
-					id=571;
-					type="Operator_Mcam";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="acex_headless_blacklist";
-							expression="_this setVariable [""acex_headless_blacklist"",_value,true]";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"BOOL"
-										};
-									};
-									value=0;
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="ace_isMedic";
-							expression="if (_value > -1) then {_this setVariable [""ace_medical_medicClass"",_value,true];};";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=1;
-								};
-							};
-						};
-						class Attribute2
-						{
-							property="ace_isEngineer";
-							expression="if (_value != -1) then {_this setVariable ['ace_isEngineer',_value, true];}";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=2;
-								};
-							};
-						};
-						class Attribute3
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="Male08ENG";
-								};
-							};
-						};
-						class Attribute4
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=1.01;
-								};
-							};
-						};
-						class Attribute5
-						{
-							property="ace_advanced_fatigue_performanceFactor";
-							expression="_this setVariable [""ace_advanced_fatigue_performanceFactor"",_value,true]";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=2;
-								};
-							};
-						};
-						nAttributes=6;
-					};
-				};
-			};
-			class Attributes
-			{
-			};
-			id=570;
-		};
-		class Item199
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={20305.463,24.735235,1133.7032};
-						angles[]={0,0.0075049158,0};
-					};
-					side="West";
-					flags=7;
-					class Attributes
-					{
-						skill=1;
-						rank="CORPORAL";
-						isPlayable=1;
-						aiRadarUsage=-1;
-					};
-					id=573;
-					type="Operator_Mcam";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="acex_headless_blacklist";
-							expression="_this setVariable [""acex_headless_blacklist"",_value,true]";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"BOOL"
-										};
-									};
-									value=0;
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="ace_isMedic";
-							expression="if (_value > -1) then {_this setVariable [""ace_medical_medicClass"",_value,true];};";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=1;
-								};
-							};
-						};
-						class Attribute2
-						{
-							property="ace_isEngineer";
-							expression="if (_value != -1) then {_this setVariable ['ace_isEngineer',_value, true];}";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=2;
-								};
-							};
-						};
-						class Attribute3
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="Male08ENG";
-								};
-							};
-						};
-						class Attribute4
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=1.01;
-								};
-							};
-						};
-						class Attribute5
-						{
-							property="ace_advanced_fatigue_performanceFactor";
-							expression="_this setVariable [""ace_advanced_fatigue_performanceFactor"",_value,true]";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=2;
-								};
-							};
-						};
-						nAttributes=6;
-					};
-				};
-			};
-			class Attributes
-			{
-			};
-			id=572;
-		};
-		class Item200
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={20306.379,24.735235,1132.0059};
-						angles[]={0,0.0075049158,0};
-					};
-					side="West";
-					flags=7;
-					class Attributes
-					{
-						skill=1;
-						rank="CORPORAL";
-						isPlayable=1;
-						aiRadarUsage=-1;
-					};
-					id=575;
-					type="Operator_Mcam";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="acex_headless_blacklist";
-							expression="_this setVariable [""acex_headless_blacklist"",_value,true]";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"BOOL"
-										};
-									};
-									value=0;
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="ace_isMedic";
-							expression="if (_value > -1) then {_this setVariable [""ace_medical_medicClass"",_value,true];};";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=1;
-								};
-							};
-						};
-						class Attribute2
-						{
-							property="ace_isEngineer";
-							expression="if (_value != -1) then {_this setVariable ['ace_isEngineer',_value, true];}";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=2;
-								};
-							};
-						};
-						class Attribute3
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="Male08ENG";
-								};
-							};
-						};
-						class Attribute4
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=1.01;
-								};
-							};
-						};
-						class Attribute5
-						{
-							property="ace_advanced_fatigue_performanceFactor";
-							expression="_this setVariable [""ace_advanced_fatigue_performanceFactor"",_value,true]";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=2;
-								};
-							};
-						};
-						nAttributes=6;
-					};
-				};
-			};
-			class Attributes
-			{
-			};
-			id=574;
-		};
-		class Item201
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={20305.43,24.735235,1132.0414};
-						angles[]={0,0.0075049158,0};
-					};
-					side="West";
-					flags=7;
-					class Attributes
-					{
-						skill=1;
-						rank="CORPORAL";
-						isPlayable=1;
-						aiRadarUsage=-1;
-					};
-					id=577;
-					type="Operator_Mcam";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="acex_headless_blacklist";
-							expression="_this setVariable [""acex_headless_blacklist"",_value,true]";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"BOOL"
-										};
-									};
-									value=0;
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="ace_isMedic";
-							expression="if (_value > -1) then {_this setVariable [""ace_medical_medicClass"",_value,true];};";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=1;
-								};
-							};
-						};
-						class Attribute2
-						{
-							property="ace_isEngineer";
-							expression="if (_value != -1) then {_this setVariable ['ace_isEngineer',_value, true];}";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=2;
-								};
-							};
-						};
-						class Attribute3
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="Male08ENG";
-								};
-							};
-						};
-						class Attribute4
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=1.01;
-								};
-							};
-						};
-						class Attribute5
-						{
-							property="ace_advanced_fatigue_performanceFactor";
-							expression="_this setVariable [""ace_advanced_fatigue_performanceFactor"",_value,true]";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=2;
-								};
-							};
-						};
-						nAttributes=6;
-					};
-				};
-			};
-			class Attributes
-			{
-			};
-			id=576;
-		};
-		class Item202
-		{
 			dataType="Object";
 			class PositionInfo
 			{
@@ -18209,7 +18716,7 @@ class Mission
 				nAttributes=4;
 			};
 		};
-		class Item203
+		class Item197
 		{
 			dataType="Object";
 			class PositionInfo
@@ -18305,7 +18812,7 @@ class Mission
 				nAttributes=4;
 			};
 		};
-		class Item204
+		class Item198
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -18396,7 +18903,7 @@ class Mission
 				nAttributes=4;
 			};
 		};
-		class Item205
+		class Item199
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -18544,7 +19051,7 @@ class Mission
 				nAttributes=7;
 			};
 		};
-		class Item206
+		class Item200
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -18977,7 +19484,7 @@ class Mission
 				nAttributes=22;
 			};
 		};
-		class Item207
+		class Item201
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -19410,7 +19917,7 @@ class Mission
 				nAttributes=22;
 			};
 		};
-		class Item208
+		class Item202
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -19558,7 +20065,7 @@ class Mission
 				nAttributes=7;
 			};
 		};
-		class Item209
+		class Item203
 		{
 			dataType="Object";
 			class PositionInfo
@@ -19809,7 +20316,7 @@ class Mission
 				nAttributes=12;
 			};
 		};
-		class Item210
+		class Item204
 		{
 			dataType="Object";
 			class PositionInfo
@@ -19826,6 +20333,7 @@ class Mission
 			};
 			id=589;
 			type="LOP_ChDKZ_BTR60";
+			atlOffset=-5.4359436e-005;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -19945,7 +20453,7 @@ class Mission
 				nAttributes=6;
 			};
 		};
-		class Item211
+		class Item205
 		{
 			dataType="Object";
 			class PositionInfo
@@ -19962,6 +20470,7 @@ class Mission
 			};
 			id=590;
 			type="LOP_ChDKZ_BTR70";
+			atlOffset=-0.00116539;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -20195,7 +20704,7 @@ class Mission
 				nAttributes=12;
 			};
 		};
-		class Item212
+		class Item206
 		{
 			dataType="Object";
 			class PositionInfo
@@ -20212,7 +20721,7 @@ class Mission
 			};
 			id=592;
 			type="LOP_ChDKZ_BTR70";
-			atlOffset=-5.3405762e-005;
+			atlOffset=-5.4359436e-005;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -20446,7 +20955,7 @@ class Mission
 				nAttributes=12;
 			};
 		};
-		class Item213
+		class Item207
 		{
 			dataType="Object";
 			class PositionInfo
@@ -20698,7 +21207,7 @@ class Mission
 				nAttributes=12;
 			};
 		};
-		class Item214
+		class Item208
 		{
 			dataType="Object";
 			class PositionInfo
@@ -20715,6 +21224,7 @@ class Mission
 			};
 			id=594;
 			type="LOP_ChDKZ_BTR60";
+			atlOffset=-6.0081482e-005;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -20834,7 +21344,7 @@ class Mission
 				nAttributes=6;
 			};
 		};
-		class Item215
+		class Item209
 		{
 			dataType="Object";
 			class PositionInfo
@@ -20851,7 +21361,7 @@ class Mission
 			};
 			id=595;
 			type="LOP_ChDKZ_BTR70";
-			atlOffset=0.00054359436;
+			atlOffset=0.00054264069;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -21085,7 +21595,7 @@ class Mission
 				nAttributes=12;
 			};
 		};
-		class Item216
+		class Item210
 		{
 			dataType="Object";
 			class PositionInfo
@@ -21336,7 +21846,7 @@ class Mission
 				nAttributes=12;
 			};
 		};
-		class Item217
+		class Item211
 		{
 			dataType="Object";
 			class PositionInfo
@@ -21354,6 +21864,7 @@ class Mission
 			};
 			id=598;
 			type="LOP_ChDKZ_BTR70";
+			atlOffset=-4.4822693e-005;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -21587,7 +22098,7 @@ class Mission
 				nAttributes=12;
 			};
 		};
-		class Item218
+		class Item212
 		{
 			dataType="Object";
 			class PositionInfo
@@ -21603,6 +22114,7 @@ class Mission
 			};
 			id=600;
 			type="LOP_ChDKZ_BTR70";
+			atlOffset=-4.1007996e-005;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -21836,7 +22348,7 @@ class Mission
 				nAttributes=12;
 			};
 		};
-		class Item219
+		class Item213
 		{
 			dataType="Object";
 			class PositionInfo
@@ -21853,6 +22365,7 @@ class Mission
 			};
 			id=602;
 			type="LOP_ChDKZ_BTR70";
+			atlOffset=-1.5258789e-005;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -22086,7 +22599,7 @@ class Mission
 				nAttributes=12;
 			};
 		};
-		class Item220
+		class Item214
 		{
 			dataType="Object";
 			class PositionInfo
@@ -22104,6 +22617,7 @@ class Mission
 			};
 			id=603;
 			type="LOP_ChDKZ_BTR70";
+			atlOffset=-4.4822693e-005;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -22337,7 +22851,7 @@ class Mission
 				nAttributes=12;
 			};
 		};
-		class Item221
+		class Item215
 		{
 			dataType="Object";
 			class PositionInfo
@@ -22354,6 +22868,7 @@ class Mission
 			};
 			id=614;
 			type="LOP_ChDKZ_BTR60";
+			atlOffset=-6.6757202e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -22473,7 +22988,7 @@ class Mission
 				nAttributes=6;
 			};
 		};
-		class Item222
+		class Item216
 		{
 			dataType="Object";
 			class PositionInfo
@@ -22724,7 +23239,7 @@ class Mission
 				nAttributes=12;
 			};
 		};
-		class Item223
+		class Item217
 		{
 			dataType="Object";
 			class PositionInfo
@@ -22975,7 +23490,7 @@ class Mission
 				nAttributes=12;
 			};
 		};
-		class Item224
+		class Item218
 		{
 			dataType="Object";
 			class PositionInfo
@@ -22991,9 +23506,9 @@ class Mission
 			};
 			id=623;
 			type="RHS_Su25SM_KH29_vvs";
-			atlOffset=0.084843636;
+			atlOffset=0.084844589;
 		};
-		class Item225
+		class Item219
 		{
 			dataType="Object";
 			class PositionInfo
@@ -23009,9 +23524,9 @@ class Mission
 			};
 			id=624;
 			type="RHS_Su25SM_KH29_vvs";
-			atlOffset=0.084662437;
+			atlOffset=0.084663391;
 		};
-		class Item226
+		class Item220
 		{
 			dataType="Object";
 			class PositionInfo
@@ -23029,7 +23544,7 @@ class Mission
 			type="RHS_Su25SM_KH29_vvs";
 			atlOffset=0.084719658;
 		};
-		class Item227
+		class Item221
 		{
 			dataType="Object";
 			class PositionInfo
@@ -23047,7 +23562,7 @@ class Mission
 			type="RHS_Su25SM_KH29_vvs";
 			atlOffset=0.084853172;
 		};
-		class Item228
+		class Item222
 		{
 			dataType="Object";
 			class PositionInfo
@@ -23065,7 +23580,7 @@ class Mission
 			type="RHS_Su25SM_KH29_vvs";
 			atlOffset=0.085296631;
 		};
-		class Item229
+		class Item223
 		{
 			dataType="Object";
 			class PositionInfo
@@ -23083,7 +23598,7 @@ class Mission
 			type="RHS_Su25SM_KH29_vvs";
 			atlOffset=0.084939957;
 		};
-		class Item230
+		class Item224
 		{
 			dataType="Object";
 			class PositionInfo
@@ -23101,7 +23616,7 @@ class Mission
 			type="RHS_Su25SM_KH29_vvs";
 			atlOffset=0.0850811;
 		};
-		class Item231
+		class Item225
 		{
 			dataType="Object";
 			class PositionInfo
@@ -23119,7 +23634,7 @@ class Mission
 			type="RHS_Su25SM_KH29_vvs";
 			atlOffset=0.084931374;
 		};
-		class Item232
+		class Item226
 		{
 			dataType="Object";
 			class PositionInfo
@@ -23135,8 +23650,9 @@ class Mission
 			};
 			id=633;
 			type="RHS_TU95MS_vvs_old";
+			atlOffset=0.0063676834;
 		};
-		class Item233
+		class Item227
 		{
 			dataType="Object";
 			class PositionInfo
@@ -23152,8 +23668,9 @@ class Mission
 			};
 			id=634;
 			type="RHS_TU95MS_vvs_old";
+			atlOffset=0.0092477798;
 		};
-		class Item234
+		class Item228
 		{
 			dataType="Object";
 			class PositionInfo
@@ -23169,8 +23686,9 @@ class Mission
 			};
 			id=635;
 			type="LOP_ChDKZ_Mi8MTV3_UPK23";
+			atlOffset=-0.0070295334;
 		};
-		class Item235
+		class Item229
 		{
 			dataType="Object";
 			class PositionInfo
@@ -23186,9 +23704,9 @@ class Mission
 			};
 			id=636;
 			type="LOP_ChDKZ_Mi8MTV3_UPK23";
-			atlOffset=0.00091457367;
+			atlOffset=0.00091362;
 		};
-		class Item236
+		class Item230
 		{
 			dataType="Object";
 			class PositionInfo
@@ -23204,8 +23722,9 @@ class Mission
 			};
 			id=637;
 			type="LOP_ChDKZ_Mi8MTV3_UPK23";
+			atlOffset=0.0023298264;
 		};
-		class Item237
+		class Item231
 		{
 			dataType="Group";
 			side="East";
@@ -23256,8 +23775,9 @@ class Mission
 				};
 			};
 			id=638;
+			atlOffset=-0.00023651123;
 		};
-		class Item238
+		class Item232
 		{
 			dataType="Object";
 			class PositionInfo
@@ -23273,8 +23793,9 @@ class Mission
 			};
 			id=639;
 			type="O_APC_Tracked_02_AA_F";
+			atlOffset=-0.00023651123;
 		};
-		class Item239
+		class Item233
 		{
 			dataType="Object";
 			class PositionInfo
@@ -23290,8 +23811,9 @@ class Mission
 			};
 			id=652;
 			type="O_APC_Tracked_02_AA_F";
+			atlOffset=-0.011083603;
 		};
-		class Item240
+		class Item234
 		{
 			dataType="Group";
 			side="East";
@@ -23342,8 +23864,9 @@ class Mission
 				};
 			};
 			id=663;
+			atlOffset=-0.011083603;
 		};
-		class Item241
+		class Item235
 		{
 			dataType="Object";
 			class PositionInfo
@@ -23360,8 +23883,9 @@ class Mission
 			};
 			id=666;
 			type="LOP_ChDKZ_ZSU234";
+			atlOffset=-1.7166138e-005;
 		};
-		class Item242
+		class Item236
 		{
 			dataType="Group";
 			side="East";
@@ -23553,7 +24077,7 @@ class Mission
 			id=667;
 			atlOffset=-0.00090789795;
 		};
-		class Item243
+		class Item237
 		{
 			dataType="Group";
 			side="East";
@@ -23595,7 +24119,7 @@ class Mission
 					};
 					id=679;
 					type="LOP_ChDKZ_Infantry_SL";
-					atlOffset=-0.0065813065;
+					atlOffset=-0.0065822601;
 				};
 				class Item2
 				{
@@ -23614,7 +24138,7 @@ class Mission
 					};
 					id=680;
 					type="LOP_ChDKZ_Infantry_Corpsman";
-					atlOffset=-0.0065870285;
+					atlOffset=-0.0065860748;
 				};
 				class Item3
 				{
@@ -23744,7 +24268,7 @@ class Mission
 			id=677;
 			atlOffset=-0.0058641434;
 		};
-		class Item244
+		class Item238
 		{
 			dataType="Group";
 			side="East";
@@ -23858,7 +24382,7 @@ class Mission
 					};
 					id=693;
 					type="LOP_ChDKZ_Infantry_Rifleman";
-					atlOffset=-0.035111427;
+					atlOffset=-0.035112381;
 				};
 				class Item6
 				{
@@ -23936,7 +24460,7 @@ class Mission
 			id=687;
 			atlOffset=-0.027236938;
 		};
-		class Item245
+		class Item239
 		{
 			dataType="Group";
 			side="East";
@@ -23965,7 +24489,7 @@ class Mission
 			};
 			id=700;
 		};
-		class Item246
+		class Item240
 		{
 			dataType="Group";
 			side="East";
@@ -23995,7 +24519,7 @@ class Mission
 			};
 			id=702;
 		};
-		class Item247
+		class Item241
 		{
 			dataType="Group";
 			side="East";
@@ -24024,7 +24548,7 @@ class Mission
 			};
 			id=704;
 		};
-		class Item248
+		class Item242
 		{
 			dataType="Group";
 			side="East";
@@ -24053,7 +24577,7 @@ class Mission
 			};
 			id=706;
 		};
-		class Item249
+		class Item243
 		{
 			dataType="Group";
 			side="East";
@@ -24085,7 +24609,7 @@ class Mission
 			id=713;
 			atlOffset=-1.2397766e-005;
 		};
-		class Item250
+		class Item244
 		{
 			dataType="Group";
 			side="East";
@@ -24116,7 +24640,7 @@ class Mission
 			id=714;
 			atlOffset=3.528595e-005;
 		};
-		class Item251
+		class Item245
 		{
 			dataType="Group";
 			side="East";
@@ -24147,7 +24671,7 @@ class Mission
 			id=715;
 			atlOffset=-1.335144e-005;
 		};
-		class Item252
+		class Item246
 		{
 			dataType="Group";
 			side="East";
@@ -24176,7 +24700,7 @@ class Mission
 			};
 			id=716;
 		};
-		class Item253
+		class Item247
 		{
 			dataType="Group";
 			side="East";
