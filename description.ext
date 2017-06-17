@@ -1,3 +1,10 @@
+author = "SSgt N. Heintz and Capt R. Bruce";
+
+respawnOnStart = 1;
+
+
+
+
 class CfgFunctions
 {
 
