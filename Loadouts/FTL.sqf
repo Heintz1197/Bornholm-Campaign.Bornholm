@@ -39,7 +39,6 @@ for "_i" from 1 to 2 do {_this addItemToBackpack "ACE_M84";};
 _this addItemToBackpack "Chemlight_blue";
 _this addItemToBackpack "Chemlight_green";
 _this addItemToBackpack "ACE_Chemlight_HiRed";
-for "_i" from 1 to 2 do {_this addItemToBackpack "rhs_200rnd_556x45_M_SAW";};
 _this addItemToBackpack "SmokeShellGreen";
 _this addItemToBackpack "SmokeShellOrange";
 for "_i" from 1 to 4 do {_this addItemToBackpack "rhs_mag_an_m8hc";};
