@@ -2,7 +2,7 @@
 
 author = "SSgt N. Heintz and Capt R. Bruce";
 
-respawnOnStart = 1;
+respawnOnStart = 0;
 
 
 class CfgFunctions
