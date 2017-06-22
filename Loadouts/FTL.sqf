@@ -47,7 +47,7 @@ _this addHeadgear "rhsusf_lwh_helmet_marpatwd";
 comment "Add weapons";
 _this addWeapon "rhs_weap_m16a4_carryhandle_M203";
 _this addPrimaryWeaponItem "rhsusf_acc_SF3P556";
-_this addWeapon "Binocular";
+_this addWeapon "Rangefinder";
 
 comment "Add items";
 _this linkItem "ItemMap";

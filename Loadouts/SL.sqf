@@ -12,9 +12,9 @@ removeGoggles _this;
 
 comment "Add containers";
 _this forceAddUniform "rhs_uniform_FROG01_wd";
-for "_i" from 1 to 4 do {_this addItemToUniform "rhsusf_mag_15Rnd_9x19_JHP";};
+for "_i" from 1 to 3 do {_this addItemToUniform "rhsusf_mag_15Rnd_9x19_JHP";};
 _this addVest "rhsusf_spc_squadleader";
-for "_i" from 1 to 6 do {_this addItemToVest "rhs_mag_M433_HEDP";};
+for "_i" from 1 to 5 do {_this addItemToVest "rhs_mag_M433_HEDP";};
 for "_i" from 1 to 6 do {_this addItemToVest "rhs_mag_m714_White";};
 for "_i" from 1 to 9 do {_this addItemToVest "rhs_mag_30Rnd_556x45_M855A1_Stanag";};
 _this addBackpack "B_Kitbag_rgr";
@@ -50,12 +50,12 @@ comment "Add weapons";
 _this addWeapon "rhs_weap_m16a4_carryhandle_M203";
 _this addPrimaryWeaponItem "rhsusf_acc_SF3P556";
 _this addWeapon "rhsusf_weap_m9";
-_this addWeapon "Binocular";
+_this addWeapon "Rangefinder";
 
 comment "Add items";
 _this linkItem "ItemMap";
 _this linkItem "ItemCompass";
 _this linkItem "ItemWatch";
-_this linkItem "tf_anprc152_5";
+_this linkItem "tf_anprc152_1";
 _this linkItem "ItemGPS";
 _this linkItem "rhsusf_ANPVS_15";

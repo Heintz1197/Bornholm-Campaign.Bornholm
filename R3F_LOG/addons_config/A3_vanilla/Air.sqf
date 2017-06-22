@@ -4,7 +4,9 @@ R3F_LOG_CFG_can_tow = R3F_LOG_CFG_can_tow +
 
 R3F_LOG_CFG_can_be_towed = R3F_LOG_CFG_can_be_towed +
 [
-	"plane"
+	"plane",
+	"rhsusf_CH53E_USMC",
+	"RHS_AH1Z_wd"
 ];
 
 R3F_LOG_CFG_can_lift = R3F_LOG_CFG_can_lift +
